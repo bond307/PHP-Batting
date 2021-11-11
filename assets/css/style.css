@@ -1,0 +1,256 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+.main-templete{
+    width: 100%;
+}
+.main-templete. top-section{
+    width: 100%;
+}
+.top-section p{
+    text-align: center;
+    background: #ddd;
+    padding: 7px 0px;
+    font-size: 18px; 
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.top-menu{
+    width: 100%;
+}
+.top-menu .top-menu-left {
+	width: 50%;
+	float: left;
+	background: #5BBC2E;
+	padding: 7px 0px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 600;
+	/* margin: 0px; */
+	border: 2px solid #008000;
+}
+.top-menu .top-menu-left:hover{
+    background: #008000;
+    cursor: pointer;
+    transition: .3s;
+}
+.top-menu .top-menu-right {
+	width: 50%;
+	float: right;
+	background: #5BBC2E;
+	padding: 7px 0px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 600;
+	/* margin: 0px; */
+    border: 2px solid #008000;
+}
+.top-menu .top-menu-right:hover{
+    background: #008000;
+    cursor: pointer;
+    transition: .3s;
+}
+.top-menu .top-menu-center{
+    width: 100%%;
+	background: #5BBC2E;
+	padding: 8px 0px;
+	text-align: center;
+	font-size: 17px;
+	color: #fff;
+	font-weight: 600;
+	/* margin: 0px; */
+    border: 2px solid #008000;
+}
+.top-menu .top-menu-center:hover{
+    background: #008000;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card-body{
+    width: 100%;
+}
+.card-header{
+    width: 100%;
+}
+.reveal{
+    border: 1px solid #ddd;
+}
+
+/*------- Menu ---*/
+.scrollmenu {
+  background-color: #008000;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.scrollmenu a:hover {
+  background-color: #009A68;
+}
+.scrollmenu a:active{
+     background-color: #009A68;
+}
+.admin-online {
+	/* padding: 30px 0px; */
+	width: 19%;
+	margin: 25px auto;
+	background: #008000;
+	height: 35px;
+	font-size: 20px;
+	border-radius: 10px;
+	color: #fff;
+}
+.admin-offline{
+   	width: 19%;
+	margin: 25px auto;
+	background: #000;
+	height: 35px;
+	font-size: 20px;
+	border-radius: 10px;
+	color: #333; 
+}
+.element {
+	/* height: 20px; */
+	/* width: 20px; */
+	background-color: red;
+	padding: 0px 13px;
+	border-radius: 100%;
+	margin-left: 10px;
+    animation-name: stretch;
+  animation-duration: 1s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: #fff;
+  }
+}
+.footer p{
+    padding: 7px 0px;
+    background: #333;
+    color: #f1f1f1;
+    text-align: center;
+}
+.page-title{
+    margin: 30px 0px;
+}
+.page-title h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.list-group{
+    margin: 30px auto;
+}
+.list-group a{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+.list-group a:hover{
+    background: #ddd;
+}
+.list-group-item.active {
+	z-index: 2;
+	color: #0074E8;
+	background-color: #fff;
+	border-color: #333;
+}
+.buy{
+    margin: 30px auto;
+}
+label{
+    font-weight: bold;
+    font-size: 16px;
+}
+.approve h4, p{
+    text-align: center;
+    margin: 20px auto;
+}
+/*--- check online status ----*/
+.single-product{
+    text-align: center;
+    margin: 20px auto;
+}
+.single-product h5{
+    text-align: center;
+    font-weight: bold;
+}
+.product-box {
+	border: 10px solid green;
+	border-radius: 10px;
+	padding: 10px 0px;
+	font-size: 20px;
+}
+.product-box span{
+    color: darkgreen;
+    font-weight: 600;
+    
+}
+.single-product a{
+    text-decoration: none;
+}
+.single-product a:hover{
+    color: none;
+}
+.product{
+    background: #000;
+    border: 3px solid #fff;
+    padding: 5px 0px;
+    text-align: center;
+    margin: 0;
+    cursor: move;
+}
+.product p{
+    font-size: 20px;
+    color: #f1f1f1;
+    font-weight: 300;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.product-active{
+    background: #fff;
+    border: 3px solid #000;
+    padding: 5px 0px;
+    text-align: center;
+    margin: 0;
+}
+.product-active a{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-active a:hover{
+    text-decoration: none;
+}
