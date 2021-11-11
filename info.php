@@ -6,7 +6,7 @@ if(isset($_SESSION['user_id']) && !empty($_SESSION['user_id'])){
        <div class="main-contant">
              <div class="page-title">
                <h2>Info</h2>
-           </div>
+           </div> 
            <div class="col-md-10 offset-md-1">
                <div class="card">
               <ul class="list-group list-group-flush">

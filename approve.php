@@ -8,7 +8,7 @@ if($_GET['user_id']){
 if(mysqli_query($conn, "select * from tbl_user where status = 'Approved' and user_id = '$id'")){
     header("Location: welcome.php");
  }
-}
+} 
 ?>
 
 
